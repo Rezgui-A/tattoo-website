@@ -6,8 +6,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-
+.circle-img {
+    width: 600px; /* 10 times smaller */
+    height: 600px; /* Match the width for a perfect circle */
+    border-radius: 50%; /* Ensures the image is circular */
+    object-fit: cover; /* Ensures the image scales proportionally */
+}
 body {
     font-family: 'Open Sans', sans-serif;
 
@@ -63,7 +67,7 @@ header nav ul li {
 }
 
 header nav ul li.active{
-    background: #0e6c66;
+    background: #800000;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -74,11 +78,11 @@ header nav i{
 
 }
 header nav i:hover{
-    color: #0e6c66;
+    color: #800000;
 }
 
 header nav li:hover{
-    background:#0e6c66;
+    background:#800000;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -126,7 +130,7 @@ button{
     border: none;
     background: none;
     padding: 12px 50px;
-    background : #0e6c66;
+    background : #800000;
     color: white;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -135,8 +139,8 @@ button{
     transition: 0.5s;
 }
 button:hover{
-    border:1px solid #0e6c66;
-    color: #0e6c66;
+    border:1px solid #800000;
+    color: #800000;
     background: none;
 }
 img{
@@ -177,10 +181,10 @@ img{
     cursor: pointer;
 }
 .dots label:hover{
-    background: #0e6c66;
+    background: #800000;
 }
 .dots label:nth-child(2){
-    background: #0e6c66;
+    background: #800000;
 }
 
 .grid{
@@ -336,7 +340,7 @@ img{
 }
 
 .customer .text p{
-    color : #0e6c66;
+    color : #800000;
     font-size: 14px;
 }
 
@@ -370,7 +374,7 @@ footer .left input {
 
 footer .left .arrow{
     width: 5%;
-    background: #0e6c66;
+    background: #800000;
     text-align: center;
     line-height: 40px;
 }
@@ -387,8 +391,8 @@ footer .right i{
 }
 
 footer .right i:hover {
-    border: 1px solid #0e6c66;
-    color: #0e6c66;
+    border: 1px solid #800000;
+    color: #800000;
 }
 footer .grid{
     margin-top: 50px;
